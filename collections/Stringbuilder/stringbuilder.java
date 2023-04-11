@@ -1,4 +1,3 @@
-import java.lang.reflect.Array;
 import java.util.*;
 
 public class stringbuilder {
@@ -7,7 +6,7 @@ public class stringbuilder {
         str.append("hi");
         str.append('i');
         System.out.println(str);
-
+    
 
         //important
         System.out.println(str.toString());
