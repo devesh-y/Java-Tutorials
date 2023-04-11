@@ -1,5 +1,3 @@
-import java.sql.Array;
-import java.util.Collection;
 import java.util.*;
 
 public class stringbuilder {
@@ -33,15 +31,30 @@ public class stringbuilder {
     
         StringBuilder sss=new StringBuilder(str);
         StringBuilder s1=new StringBuilder(str.substring(0, 5));  
+    
 
         str.setLength(0); 
 
 
         String ssss=new String(str); 
         StringBuilder ss2=new StringBuilder(ssss);
+
+
+
+
+        //you cannot use the enhanced for loop in string data type
+        //you have to convert it into character array
+
+        
         char []my=ssss.toCharArray();
-        Arrays.sort(my);
+        for(char ch:my){
+            System.out.print(ch+" ");
+        }
+        Arrays.sort(my);   //this is the only way
 
 
+
+
+       
     }
 }

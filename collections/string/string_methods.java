@@ -11,7 +11,6 @@ public class string_methods {
         System.out.println(str.length());
         System.out.println(str.toUpperCase());
         System.out.println(str.toLowerCase());
-
         String s1="   devesh  ";
         System.out.println(s1.trim());//it will remove the spaces before and after the string
         System.out.println(s1.substring(5,7));//2nd argumet not included
@@ -23,7 +22,8 @@ public class string_methods {
         System.out.println(s1.indexOf("ev"));
         System.out.println(s1.indexOf("ev",3));//it will start checking from index 3
         System.out.println(s1.lastIndexOf("e"));
-        System.out.println(s1.equals("ok"));
+        String s2="ok";
+        System.out.println(s2.equals("ok"));
     
 
     }
