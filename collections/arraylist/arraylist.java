@@ -91,14 +91,19 @@ public class arraylist {
         al.add(20);
         al.add(30);
         al.add(40);
+
+        for(int x: al){
+            System.out.print(x+ " ");
+        }
+
   
         Integer[] arr =new Integer[al.size()];
-        al.toArray(arr);
+        al.toArray(arr);       //important
         for(Integer x:arr){
             System.out.println(x);
         }
 
-        
+    
         
             
     }

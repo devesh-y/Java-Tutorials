@@ -50,11 +50,13 @@ public class array {
         Arrays.sort(stu);           //sorting
 
 
+        int []newarr= stu.clone();    //cloning the array
+        System.out.println(newarr);
+
 
         //multidimensional array
 
         int [][]hello={{34,34,34},{34,34,34}};
-        System.out.println();
         System.out.println(hello[1][2]);
 
 
