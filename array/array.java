@@ -48,10 +48,15 @@ public class array {
         }
         System.out.println();
         Arrays.sort(stu);           //sorting
+        
 
 
         int []newarr= stu.clone();    //cloning the array
-        System.out.println(newarr);
+
+        
+        Collections.reverse(Arrays.asList(newarr));    //reverse
+
+
 
 
         //multidimensional array

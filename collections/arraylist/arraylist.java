@@ -4,7 +4,7 @@ import java.util.*;
 public class arraylist {
     public static void main(String[] args) {
         ArrayList<Integer> cws=new ArrayList<Integer>(Collections.nCopies(5, 45));
-
+        System.out.println(cws);
         ArrayList<Integer> cars=new ArrayList<Integer>(7);
         //in java it does not care whether you define a size of arraylist , its a dynamic array
         System.out.println(cars);
@@ -38,7 +38,12 @@ public class arraylist {
         cars.set(1, 550);
         System.out.println(car2+"\n"+cars);
 
+
+
         Collections.sort(cars);    //sorting
+        Collections.reverse(cars);
+
+
        
         System.out.println(cars);
 

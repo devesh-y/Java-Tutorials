@@ -1,3 +1,4 @@
+import java.lang.reflect.Array;
 import java.util.*;
 
 public class stringbuilder {
@@ -12,10 +13,7 @@ public class stringbuilder {
         System.out.println(str.toString());
 
 
-
-        String s="sdf";
-       
-
+    
         System.out.println(str.charAt(0));
         System.out.println((int)str.charAt(0));
         System.out.println(str.codePointAt(0));
@@ -23,8 +21,10 @@ public class stringbuilder {
         System.out.println(str.length());
         System.out.println(str.indexOf("zz"));
         System.out.println(str.lastIndexOf("df"));
-        str.reverse();
-        String ss=str.toString();
+
+        str.reverse();      //reverse the stringbuilder
+
+
         str.insert(0, "devesh");
         System.out.println(str);
 
@@ -44,7 +44,7 @@ public class stringbuilder {
 
         String ssss=new String(str); 
         StringBuilder ss2=new StringBuilder(ssss);
-
+    
 
 
 
@@ -52,11 +52,12 @@ public class stringbuilder {
         //you have to convert it into character array
 
         
-        char []my=ssss.toCharArray();
+        char []my=ssss.toCharArray(); //this method not for stringbuilder
         for(char ch:my){
             System.out.print(ch+" ");
         }
-        Arrays.sort(my);   //this is the only way
+        Arrays.sort(my);   //sorting      this is the only way
+        
 
         StringBuilder t1=new StringBuilder("dsfsfs");
         StringBuilder t2=new StringBuilder("dsfsfs");
