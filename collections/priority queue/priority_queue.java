@@ -13,6 +13,7 @@ public class priority_queue {
         p.add(54);
         System.out.println(p.peek());
         p.poll();
+        System.out.println(p.peek());
         
         
 

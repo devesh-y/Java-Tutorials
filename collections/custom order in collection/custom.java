@@ -26,8 +26,13 @@ public class custom {
                         return -1;
                     return 0;
                 }
-            });
-
+            }
+        );
+        p.add(10);
+        p.add(20);
+        p.add(15);
+        p.add(5);
+        System.out.println(p);
 
         PriorityQueue<Integer> q= new PriorityQueue<Integer>((a, b) -> b - a);
     }

@@ -29,21 +29,22 @@ public class sorting {
 
         //method 1
 
-        // Collections.sort(list, new Comparator<Integer>() {
-        //     @Override
-        //     public int compare(Integer o1, Integer o2) {
-        //         return o2-o1;  
-        //     }
-        // });
-    
+        Collections.sort(list, new Comparator<Integer>() {
+            @Override
+            public int compare(Integer o1, Integer o2) {
+                return o2-o1;  
+            }
+        });
+        System.out.println(list);
 
         //method 2
 
-        // Collections.sort(list,Collections.reverseOrder());
+        Collections.sort(list,Collections.reverseOrder());
+        System.out.println(list);
 
         //method 3
 
-        // list.sort( (a,b)-> b-a );
+        list.sort( (a,b)-> b-a );
 
 
         System.out.println(list);
@@ -60,7 +61,7 @@ public class sorting {
         listt.add(new StudentData("Shyam", 84));
         listt.add(new StudentData("Lokesh", 90));
   
-        Collections.sort(list);
+        Collections.sort(listt);
   
         // Displaying data
         for (StudentData sd : listt)

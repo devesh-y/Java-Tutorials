@@ -48,11 +48,9 @@ public class array {
         }
         System.out.println();
         Arrays.sort(stu);           //sorting
-        
 
 
         int []newarr= stu.clone();    //cloning the array
-
         
         Collections.reverse(Arrays.asList(newarr));    //reverse
 
