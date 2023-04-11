@@ -6,7 +6,13 @@ public class stringbuilder {
         str.append("hi");
         str.append('i');
         System.out.println(str);
+
+
+        //important
         System.out.println(str.toString());
+
+
+
         String s="sdf";
        
 
@@ -52,9 +58,17 @@ public class stringbuilder {
         }
         Arrays.sort(my);   //this is the only way
 
+        StringBuilder t1=new StringBuilder("dsfsfs");
+        StringBuilder t2=new StringBuilder("dsfsfs");
+        System.out.println(t1==t2);
+        System.out.println(t1.equals(t2));  //check for same object in memory just like == operator
 
 
+        //so for checking if the stringbuilders are equal 
+        //you have to convert them into string objects
+        
 
+    
        
     }
 }

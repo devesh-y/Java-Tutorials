@@ -4,9 +4,9 @@ public class string_methods {
         //that means they cannot be modified
 
 
-        String str="devesh";
+        String str="devesh";   //here string literal is used to initialize
         str="dev";
-        str=new String("devesh");
+        str=new String("devesh");  //here new keyword is used to initialize a new string
 
         System.out.println(str.length());
         System.out.println(str.toUpperCase());
@@ -25,6 +25,17 @@ public class string_methods {
         String s2="ok";
         System.out.println(s2.equals("ok"));
     
+
+
+        //important
+        String str1="sdfsf";
+        String str2="sdfsf";   //here str1 and str2 refer to same memory 
+        //because they are initialize by string literals
+        System.out.println(str1.equals(str2)); //check for same content
+        System.out.println(str1==str2);
+        str2=new String("sdfsf");
+        System.out.println(str1.equals(str2));
+        System.out.println(str1==str2);
 
     }
 }

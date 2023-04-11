@@ -21,3 +21,4 @@ public class class_equal {
         System.out.println(b1.equals(b4));
     }
 }
+//When you compare two ArrayLists using the .equals() method, it will compare the elements of both ArrayLists. If both ArrayLists have the same elements in the same order, it will return true.

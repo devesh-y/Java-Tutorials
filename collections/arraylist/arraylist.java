@@ -92,6 +92,11 @@ public class arraylist {
         al.add(30);
         al.add(40);
 
+        ArrayList<Integer> al2=new ArrayList<>(al);
+        System.out.println("checking equality");
+
+        System.out.println(al.equals(al2));
+
         for(int x: al){
             System.out.print(x+ " ");
         }
@@ -102,6 +107,8 @@ public class arraylist {
         for(Integer x:arr){
             System.out.println(x);
         }
+
+
 
     
         
