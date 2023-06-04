@@ -14,11 +14,11 @@ public class linklist {
         System.out.println(ll.getLast());
         ll.remove(0);
         ll.removeLast();
+        ll.removeFirst();
         System.out.println(ll.contains("78"));
         System.out.println(ll.get(0));
 
         System.out.println(ll.indexOf("34"));
-        
         
 
     }

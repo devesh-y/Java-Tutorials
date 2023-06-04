@@ -1,9 +1,10 @@
-
 import java.util.*;
-
 public class arraylist {
     public static void main(String[] args) {
+        ArrayList<ArrayList<Integer>> dp= new ArrayList<ArrayList<Integer>>( );
+
         ArrayList<Integer> cws=new ArrayList<Integer>(Collections.nCopies(5, 45));
+        //dont try the upper line two create with some object, it will create referece to it , it is only usefull for primitive data type
         System.out.println(cws);
         ArrayList<Integer> cars=new ArrayList<Integer>(7);
         //in java it does not care whether you define a size of arraylist , its a dynamic array
@@ -87,36 +88,23 @@ public class arraylist {
         rr.add(22);
 
 
-        rr.removeIf( x-> x%3==0);   //this gives the condition to delete if
-
-
+        rr.removeIf( x-> x%3==0); //this gives the condition to delete if
 
         ArrayList<Integer> al=new ArrayList<Integer>();
         al.add(10);
         al.add(20);
         al.add(30);
         al.add(40);
-
         ArrayList<Integer> al2=new ArrayList<>(al);
         System.out.println("checking equality");
-
         System.out.println(al.equals(al2));
-
         for(int x: al){
             System.out.print(x+ " ");
         }
-
-  
         Integer[] arr =new Integer[al.size()];
         al.toArray(arr);       //important
         for(Integer x:arr){
             System.out.println(x);
         }
-
-
-
-    
-        
-            
     }
 }

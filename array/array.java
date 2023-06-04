@@ -52,9 +52,9 @@ public class array {
 
         int []newarr= stu.clone();    //cloning the array
         
-        Collections.reverse(Arrays.asList(newarr));    //reverse
-
-
+         //reverse // convert to arraylist
+        //  Collections.reverse(Arrays.asList(newarr));
+         //but  only valid if the wrapper class is used in the array
 
 
         //multidimensional array
@@ -71,6 +71,8 @@ public class array {
         int[] array1 = {1, 2, 3};
         int[] array2 = {1, 2, 3};
         System.out.println(Arrays.equals(array1, array2)); // Output: true
+       
+        
         
     }
 }  

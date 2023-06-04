@@ -17,6 +17,7 @@ public class tree_map {
         System.out.println(map.get("343"));  //null if not present
         map.remove("dfd");
         System.out.println(map.keySet());
+        System.out.println(map.values());
         System.out.println(map.entrySet());
         System.out.println(map);
         System.out.println(map.firstKey());

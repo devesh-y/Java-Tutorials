@@ -24,7 +24,7 @@ public class stringbuilder {
         str.reverse();      //reverse the stringbuilder
 
 
-        str.insert(0, "devesh");
+        str.insert(0, 'd');
         System.out.println(str);
 
         str.delete(0, 3);//2nd not included
@@ -39,7 +39,7 @@ public class stringbuilder {
     
 
         str.setLength(0); 
-
+        
 
         String ssss=new String(str); 
         StringBuilder ss2=new StringBuilder(ssss);

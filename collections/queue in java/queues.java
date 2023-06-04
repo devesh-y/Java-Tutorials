@@ -7,6 +7,7 @@ public class queues {
         q.add(535);
         q.add(335);
         q.add(5);
+        q.poll();
         q.remove(5);
         System.out.println(q.peek());
         System.out.println(q.size());

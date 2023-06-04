@@ -1,5 +1,4 @@
 import java.util.*;
-import java.util.HashMap;
 
 public class hash_map {
     public static void main(String[] args) {
@@ -18,9 +17,8 @@ public class hash_map {
         System.out.println(map.get("343"));  //null if not present
         map.remove("dfd");
         System.out.println(map.keySet());
+        System.out.println(map.values());
         System.out.println(map);
         
-
-
     }
 }

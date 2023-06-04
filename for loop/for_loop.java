@@ -8,8 +8,6 @@ public class for_loop {
         
         }
 
-
-
         ArrayList<Integer> ar=new ArrayList<>();
         ar.add(34);
         ar.add(34);

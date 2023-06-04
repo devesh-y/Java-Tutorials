@@ -17,8 +17,6 @@ public class hashset_ {
         set.remove(34);
         System.out.println(set.size());
         set.clear();
-        
-
     }
     
 

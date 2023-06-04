@@ -7,7 +7,6 @@ public class treeset_ {
         arr.clear();
         arr.add(23);
         arr.add(4545);
-        
         arr.add(1);
         arr.add(1);
         System.out.println(arr);
